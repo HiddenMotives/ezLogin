@@ -7,6 +7,8 @@ if(!isset($_SESSION['ezLogin_user'])) {
     exit;
 }
 
+// Modify Anything Below This Line
+
 echo "<pre>Demo of the members area, the below data is stored in session variables. 
         Modify members.php to change the contents of this file.
         This page is only visible to logged in users.</pre>";
